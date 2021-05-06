@@ -13,6 +13,9 @@ public class Cuadrados {
 	public Cuadrados(double miLado) {
 		lado=miLado;
 	}
+	/**
+	 * @return double
+	 */
 	public double calculaPerimetro() {
 		return 4*lado;
 	}
